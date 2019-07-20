@@ -1,0 +1,65 @@
+body{
+    background: url(imagess/ww2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #side-wrapper{
+      z-index: 1;
+      position: absolute;
+      width: 0;
+      height: 100vh;
+      overflow-y: hidden;
+      background:rgba(0,0,0,0.5);
+      opacity: 0.8; 
+  }
+  #page-wrapper{
+      width:100%;
+      position:absolute;
+      padding:15px;
+  }
+  #wrapper.menuDisplayed #side-wrapper{
+      width:250px;
+      
+  }
+  #wrapper.menuDisplayed #page-wrapper{
+      padding-left:250px; 
+  }
+  .sidebar-nav{
+      padding: 0;
+      list-style: none;
+  }
+  .sidebar-nav li{
+      text-indent: 20px;
+      line-height: 50px;
+      font-size:30px;
+      padding-top: 30px;
+      font-family: 'Righteous', cursive;
+  }
+  .sidebar-nav li a{
+      display: block;
+      text-decoration:none;
+      color: royalblue;
+      
+  }
+  .sidebar-nav li a:hover{
+   background-color: dimgrey;
+   color: blue;
+  }
+  .content{
+      font-size:6vw;
+      text-align: center;
+      padding-top:26vh;
+      color: whitesmoke;
+      font-family: 'DM Serif Display', serif;
+  }
+  .contentp{
+      font-size:2vw;
+      text-align: center;
+      font-family: 'DM Serif Display', serif;
+      color: whitesmoke;   
+  }
+  @media screen and (max-width:990px){
+  
+  
+  }

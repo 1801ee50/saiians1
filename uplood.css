@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    
+    h1 {
+    
+        color: rgb(249, 254, 255);
+        font-style: basilisk;
+        background-color:rgb(10, 166, 214);
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    nav{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(17, 3, 56);
+    }
+    
+    ul li{
+    
+        list-style: none;
+        display: inline-block;
+        line-height: 40px;
+        float: left;
+        line-height: 40px;
+        
+    }
+    
+    ul li a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        font-size: 37px;
+        font-family: basilisk;
+        color: rgb(244, 248, 248);
+        padding: 0 80px;
+    }
+    
+    .back {
+        background-color: rgb(2, 16, 61);
+        background-image: url("imagess/water2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .head {
+    
+        color: rgb(3, 27, 32);
+        font-style: basilisk;
+        background-color:rgb(236, 243, 245);
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    p {
+        text-align: left;
+        font-size: 40px;
+        padding-left:270px;
+        color:rgb(0, 0, 0);
+        font-style: basilisk, bold;
+    }
+    
+    .msg {
+        line-height: 160%;
+    }

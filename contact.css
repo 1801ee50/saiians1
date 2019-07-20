@@ -1,0 +1,27 @@
+body{
+    background: url(imagess/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content{
+    margin-top:20vh;
+}
+.content h1{
+    text-align: center;
+    font-size:5vw;
+    font-family: 'DM Serif Display', serif;
+    color:whitesmoke;
+}
+
+.opt li{
+    list-style: none;
+    display: inline-block;
+    font-size:5vw;
+    padding:40px;
+    margin-top:-5vh;
+    
+}
+.opt #con1{
+    margin-left:35vw;
+    color: orange;
+}
